@@ -19,5 +19,6 @@
     <button type="button" onclick="location.href='list'">목록보기</button>
     <button type="submit">등록하기</button>
 </form>
+
 </body>
 </html>

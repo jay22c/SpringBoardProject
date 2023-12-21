@@ -53,6 +53,7 @@ public class BoardVO {
         this.category = category;
     }
 
+
     public Date getRegdate() {
         return regdate;
     }

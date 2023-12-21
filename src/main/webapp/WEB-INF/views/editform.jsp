@@ -29,8 +29,10 @@
 <tr><td>글쓴이</td><td><form:input type="text" path="writer"/></td></tr>
 <tr><td>내용</td><td><form:textarea cols="50" rows="5" path="content" /></td></tr>
 </table>
+
 	<input type="submit" value="수정하기"/>
 	<input type="button" value="취소하기" onclick="history">
 </form:form>
+
 </body>
 </html>

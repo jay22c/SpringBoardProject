@@ -14,5 +14,6 @@
 <p> <a href="board/list"> 게시판으로 이동</a> </p>
 
 <%--<jsp:forward page="list.jsp" />--%>
+
 </body>
 </html>

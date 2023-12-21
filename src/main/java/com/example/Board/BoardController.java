@@ -14,7 +14,7 @@ import com.example.Board.BoardVO;
 public class BoardController {
 
     @Autowired
-    BoardService boardService;
+    BoardServiceImpl boardService;
 
     @RequestMapping(value = "/list" , method = RequestMethod.GET)
     public String boardlist(Model model){
@@ -22,7 +22,6 @@ public class BoardController {
         return "list";
 
     }
-
 
     @RequestMapping(value = "/addpostform", method = RequestMethod.GET)
     public String addPost() {
