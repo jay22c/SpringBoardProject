@@ -76,7 +76,6 @@
       <version>8.0.28</version>
     </dependency>
 
-
   </dependencies>
   <build>
     <finalName>SpringBoardProject</finalName>
