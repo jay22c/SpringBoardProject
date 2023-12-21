@@ -40,7 +40,6 @@ public class BoardDAO {
         String sql = "delete from BOARD where seq = " + seq;
 
         return jdbcTemplate.update(sql);
-
     }
     public int updateBoard(BoardVO vo) {
         String sql = "update BOARD set title = '" + vo.getTitle()+"',"
@@ -52,8 +51,7 @@ public class BoardDAO {
         return jdbcTemplate.update(sql);
 
     }
-
-
+    
     public BoardVO getBoard(int seq) {
         String sql = "select * from BOARD where seq =" + seq;
         return jdbcTemplate.queryForObject(sql, new BoardRowMapper());

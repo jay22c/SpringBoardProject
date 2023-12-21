@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.example.Board.BoardService;
 import com.example.Board.BoardVO;
 
-
 @Controller
 @RequestMapping(value = "/board")
 public class BoardController {

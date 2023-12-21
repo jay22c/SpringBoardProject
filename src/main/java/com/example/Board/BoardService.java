@@ -8,7 +8,6 @@ public interface BoardService {
     public BoardVO getBoard(int seq);
     public List<BoardVO> getBoardList();
 
-
 }
 
 

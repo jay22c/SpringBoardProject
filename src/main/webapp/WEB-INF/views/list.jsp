@@ -49,7 +49,6 @@
   }
 </script>
 
-
 <button type="button" onclick="location.href='addpostform'">새글쓰기</button>
 </body>
 </html>
